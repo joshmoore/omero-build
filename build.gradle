@@ -6,6 +6,19 @@ task publishToMavenLocal {
 
 task clean {
     group "omero"
-    description "Calls publishToMavenLocal on all subprojects"
+    description "Calls clean on all subprojects"
     dependsOn gradle.includedBuilds*.task(':clean')
 }
+
+task test {
+    group "omero"
+    description "Calls test on all subprojects"
+    dependsOn gradle.includedBuilds*.task(':test')
+}
+
+task javadoc {
+    group "omero"
+    description "Calls javadoc on all subprojects"
+    dependsOn gradle.includedBuilds*.task(':javadoc')
+}
+
