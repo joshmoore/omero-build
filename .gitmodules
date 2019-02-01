@@ -16,8 +16,8 @@
 	branch = develop
 [submodule "omero-server"]
 	path = omero-server
-	url = git://github.com/rgozim/omero-server
-	branch = develop
+	url = git://github.com/jburel/omero-server
+	branch = develop-ice37
 [submodule "omero-blitz"]
 	path = omero-blitz
 	url = git://github.com/rgozim/omero-blitz
