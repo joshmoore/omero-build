@@ -20,5 +20,5 @@
 	branch = develop-ice37
 [submodule "omero-blitz"]
 	path = omero-blitz
-	url = git://github.com/rgozim/omero-blitz
-	branch = develop
+	url = git://github.com/jburel/omero-blitz
+	branch = develop-ice37-v1
